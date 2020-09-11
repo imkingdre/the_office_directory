@@ -1,3 +1,9 @@
-$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+RSpec.describe TheOfficeDirectory do
+  it "has a version number" do
+    expect(TheOfficeDirectory::VERSION).not_to be nil
+  end
 
-require "the_office_directory"
+  it "does something useful" do
+    expect(false).to eq(true)
+  end
+end
